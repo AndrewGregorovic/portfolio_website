@@ -1,0 +1,91 @@
+[user@sahara ~/portfolio]$ git log
+commit dabb54b11a89c5cad92c973c46459643355329e0 (HEAD -> master)
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Fri Jun 5 06:28:10 2020 +0000
+
+Finished styling the remaining pages of my portfolio website, replaced a few lines of placeholder text on the contact and projects pages
+
+commit bc518ce6d5b4f1a9d6a005a2f916d7a367cf5ecd
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Fri Jun 5 04:29:15 2020 +0000
+
+Added hero image and fully styled index.html along with a number of other small styling tweaks to other pages
+
+commit 3d126afae727b529252f0717cbff79424d2ba956
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Thu Jun 4 20:45:21 2020 +0000
+
+Changed some colours, changed project tiles html and styling to display the project title and description in an overlay on top of the image
+
+commit b10ffa6073d90108853e0e122d2a977b19972c4c
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Thu Jun 4 20:05:10 2020 +0000
+
+Continued to style all pages except projects.html to be similar to index.html
+
+commit 50cc5d39ccbc0c96b96591953be1cbdfdf789609
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Thu Jun 4 18:35:25 2020 +0000
+
+Added font import string, defined colours as global variables, further styling of index.html and navbar
+
+commit 097b843e74b50addf2909e115d8e82df93da0cb8
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Thu Jun 4 07:05:34 2020 +0000
+
+Fixed broken links to about section of index.html, implemented tooltips for certain images
+
+commit 872e98b0b03ce89f86efbe193f5cb217194bfb22
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Thu Jun 4 05:23:09 2020 +0000
+
+Rearranged/altered code to change styles.css to follow mobile first design, few minor changes to html elements on various pages
+
+commit 8e11b2eb96fae6b1d1f91f1f02e7fa4c8cb7d034
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Wed Jun 3 07:13:55 2020 +0000
+
+Fixed issue with hero image bottom bar link not lining up with bottom edge of the image properly, changed contact method text to icons, and changed html for about me images and contact icons to accomodate tooltips
+
+commit bccaa42b9577991cb3ba553b7bea6a8015ac5275
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Wed Jun 3 03:54:28 2020 +0000
+
+Roughly styled the layout for index.html with responsive design and changed html elements where necessary
+
+commit 352051a033f779524a746c5d3abec5b7f3e8ef1d
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Mon Jun 1 06:54:39 2020 +0000
+
+Rebuilt the navbar html so that it could be styled as a collapsible on smaller screens and added icons for the buttons
+
+commit a1ed7f817671fef16464e493700707fde3eade97
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Mon Jun 1 05:02:44 2020 +0000
+
+Fixed projects.html responsive layout, added navigational buttons to blog posts and changed blog tiles so that the entire tile isn't a link
+
+commit 9c8da12b0887b545340b2d9167212779a38e2692
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Sat May 30 07:35:38 2020 +0000
+
+Fixed html elements where needed, all pages except index.html have rough styling for their layouts
+
+commit 515d9ac85e82fd8a0b08334900ac148557f78c23
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Fri May 29 08:53:06 2020 +0000
+
+Renamed article files, added in the rest of the initial html elements that were needed, roughly styled the shared nav bar and contact page with responsive design
+
+commit 8c3db78cf064eb2334808dbd0ccfc3055135a57a
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Thu May 28 06:53:33 2020 +0000
+
+Started creating all the required html elements on each page and linked to the empty stylesheet
+
+commit 798152bbfb70611db418b421b232a0f4b1bc63b6
+Author: Andrew Gregorovic <css012004@coderacademy.edu.au>
+Date:   Thu May 28 03:24:47 2020 +0000
+
+Created the directory structure and blank files to begin working on my portfolio website
