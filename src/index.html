@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <head>
     <title>Andrew Gregorovic</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/5bd2af870d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" integrity="sha384-K8LnlC4Vi1zWoiGsUtjhGJ/Oh8D16hVQPIKWy3flKS4lJ23hH35RIQjGZSJ6ALdc" />
+    <script src="https://kit.fontawesome.com/5bd2af870d.js" integrity="sha384-eoEIP4kL867FWM1D0Gem6jxjxMlsD5jiBy1lo9hB45B9e6PLQZ96UxgVowiBgMxx" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
+        <!-- Nav Bar -->
         <nav id="nav_links">
             <a href="#top" id="nav_name">Andrew Gregorovic</a>
             <div id="nav_menu">
@@ -14,6 +15,7 @@
                 <label for="menu_toggle" id="menu_open"><i class="fas fa-bars"></i></label>
                 <label for="menu_toggle" id="menu_close"><i class="fas fa-times"></i></label>
                 <div id="menu_content">
+                    <!-- Links placed in a list for when the nav bar is styled as a collapsible on smaller resolutions -->
                     <ul>
                         <li><a class="active_page" href="index.html#about_container"><i class="fas fa-user"></i>About</a></li>
                         <li><a href="projects.html"><i class="fas fa-project-diagram"></i>Projects</a></li>
@@ -39,6 +41,7 @@
     </section>
     <main id="about_container">
         <section id="about_images">
+            <!-- Each image is in a separate div to support tooltips -->
             <div id="profile_image" class="has_tooltip">
                 <img src="img/profile_image.png" alt="Andrew Gregorovic" />
                 <span class="tooltip_text">Andrew Gregorovic</span>
@@ -70,11 +73,12 @@
                 <label for="personal">Personal</label>
                 <label for="professional">Professional</label>
             </div>
+            <!-- Separate article elements for the different topics of information so that they can be toggled between -->
             <article id="about_personal">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu feugiat pretium nibh ipsum. Fermentum leo vel orci porta non pulvinar neque. Magna etiam tempor orci eu lobortis. Velit scelerisque in dictum non consectetur a erat nam at. Laoreet id donec ultrices tincidunt arcu non. Enim praesent elementum facilisis leo vel. Feugiat sed lectus vestibulum mattis ullamcorper velit sed. Sagittis id consectetur purus ut. Nullam non nisi est sit amet facilisis magna etiam tempor. Sed enim ut sem viverra aliquet eget sit. Sit amet nisl purus in. Feugiat in ante metus dictum at. Nisl tincidunt eget nullam non nisi est.</p>
             </article>
             <article id="about_professional">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu feugiat pretium nibh ipsum. Fermentum leo vel orci porta non pulvinar neque. Magna etiam tempor orci eu lobortis. Velit scelerisque in dictum non consectetur a erat nam at. Laoreet id donec ultrices tincidunt arcu non. Enim praesent elementum facilisis leo vel. Feugiat sed lectus vestibulum mattis ullamcorper velit sed. Sagittis id consectetur purus ut. Nullam non nisi est sit amet facilisis magna etiam tempor. Sed enim ut sem viverra aliquet eget sit. Sit amet nisl purus in. Feugiat in ante metus dictum at. Nisl tincidunt eget nullam non nisi est.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod. Ut sem nulla pharetra diam sit amet. Magna eget est lorem ipsum dolor sit. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Amet nisl purus in mollis nunc sed id. Id volutpat lacus laoreet non curabitur gravida arcu. Pretium quam vulputate dignissim suspendisse. Egestas congue quisque egestas diam. Lobortis mattis aliquam faucibus purus in massa tempor nec feugiat. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Amet nisl suscipit adipiscing bibendum est ultricies. Eget egestas purus viverra accumsan in nisl nisi scelerisque.</p>
                 <a href="pdf/Andrew_Gregorovic.pdf" target="_blank">Resume Link</a>
             </article>
         </section>

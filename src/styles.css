@@ -241,7 +241,6 @@ input:checked ~ #menu_content {
 #hero_image {
     width: 100%;
     height: calc(100vh - 37px);
-    /* hero image source https://www.teissrecruitment.com/wp-content/uploads/sites/110/2019/01/the-black-mirror-of-programming-what-path-must-we-take-to-crack-the-code-and-find-the-hacker-teiss-cracking-cyber-security.jpg */
     background-image: url(img/portfolio_hero_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -872,8 +871,11 @@ input:checked ~ #menu_content {
     color: var(--dark-link-hover-font);
 }
 
-/* styles for different viewports */
-/* majority of these media breakpoints are to better style the links on the contact page due to the length of some of them, it's not supported below about 380px */
+/* styles for different viewports, it's mostly a bunch of padding/margin/sizing changes */
+
+/* majority of these media breakpoints are to better style the links on the contact page due to the length of account links
+and the font size of the project tile overlay text */
+/* I've only checked that the pages look fine down to a screen width of about 380px, below that things may not display well */
 @media all and (min-width: 380px) {
     .blog_tile {
         height: 21rem;

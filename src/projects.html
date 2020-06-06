@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <head>
     <title>Projects</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/5bd2af870d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" integrity="sha384-K8LnlC4Vi1zWoiGsUtjhGJ/Oh8D16hVQPIKWy3flKS4lJ23hH35RIQjGZSJ6ALdc" />
+    <script src="https://kit.fontawesome.com/5bd2af870d.js" integrity="sha384-eoEIP4kL867FWM1D0Gem6jxjxMlsD5jiBy1lo9hB45B9e6PLQZ96UxgVowiBgMxx" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
+        <!-- Nav Bar -->
         <nav id="nav_links">
             <a href="index.html" id="nav_name">Andrew Gregorovic</a>
             <div id="nav_menu">
@@ -14,7 +15,8 @@
                 <label for="menu_toggle" id="menu_open"><i class="fas fa-bars"></i></label>
                 <label for="menu_toggle" id="menu_close"><i class="fas fa-times"></i></label>
                 <div id="menu_content">
-                    <ul>
+                <!-- Links placed in a list for when the nav bar is styled as a collapsible on smaller resolutions -->
+                <ul>
                         <li><a href="index.html#about_container"><i class="fas fa-user"></i>About</a></li>
                         <li><a class="active_page" href="projects.html"><i class="fas fa-project-diagram"></i>Projects</a></li>
                         <li><a href="blog.html"><i class="fas fa-blog"></i>Blog</a></li>
@@ -40,8 +42,10 @@
             </div>
         </section>
         <section id="project_tiles">
+            <!-- Each project tile is an anchor element so that the whole thing is a link -->
             <a href="" id="project_1" class="project_tile">
                 <img src="img/portfolio_website.jpg" alt="Portfolio Website thumbnail" />
+                <!-- Empty div to style as the overlay background when the tile is hovered over -->
                 <div class="project_tile_overlay"></div>
                 <div class="project_overlay_content">
                     <h6 class="project_title">Portfolio Website</h6>
