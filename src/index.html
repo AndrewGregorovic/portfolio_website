@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title>Andrew Gregorovic</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/5bd2af870d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <nav id="nav_links">
+            <a href="#top" id="nav_name">Andrew Gregorovic</a>
+            <div id="nav_menu">
+                <input type="checkbox" id="menu_toggle" >
+                <label for="menu_toggle" id="menu_open"><i class="fas fa-bars"></i></label>
+                <label for="menu_toggle" id="menu_close"><i class="fas fa-times"></i></label>
+                <div id="menu_content">
+                    <ul>
+                        <li><a class="active_page" href="index.html#about_container"><i class="fas fa-user"></i>About</a></li>
+                        <li><a href="projects.html"><i class="fas fa-project-diagram"></i>Projects</a></li>
+                        <li><a href="blog.html"><i class="fas fa-blog"></i>Blog</a></li>
+                        <li><a href="contact.html"><i class="fas fa-address-book"></i>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="hero">
+        <div id="hero_image">
+            <div id="hero_titles">
+                <h1 id="hero_title">Andrew Gregorovic</h1>
+                <h3 id="hero_subtitle">Developer-in-Training</h3>
+            </div>
+            <p id="quote_1" class="hero_quote">“A person who never made a mistake never tried anything new." — Albert Einstein</p>
+            <p id="quote_2" class="hero_quote">“You don’t have to be great to start, but you have to start to be great.” – Zig Ziglar</p>
+            <p id="quote_3" class="hero_quote">“Don’t let what you cannot do interfere with what you can do.” — John Wooden</p>
+            <p id="quote_4" class="hero_quote">“Learning is never done without errors and defeat.” – Vladimir Lenin</p>
+        </div>
+        <a href="#about_container"><i class="fas fa-chevron-down"></i></a>
+    </section>
+    <main id="about_container">
+        <section id="about_images">
+            <div id="profile_image" class="has_tooltip">
+                <img src="img/profile_image.png" alt="Andrew Gregorovic" />
+                <span class="tooltip_text">Andrew Gregorovic</span>
+            </div>
+            <div id="cat_pics">
+                <div id="gigi" class="cats has_tooltip">
+                    <img src="img/gigi.jpg" alt="My cat Gigi" />
+                    <span class="tooltip_text">Gigi</span>
+                </div>
+                <div id="lola" class="cats has_tooltip">
+                    <img src="img/lola.jpg" alt="My cat Lola" />
+                    <span class="tooltip_text">Lola</span>
+                </div>
+                <div id="tily" class="cats has_tooltip">
+                    <img src="img/tily.jpg" alt="My cat Tily" />
+                    <span class="tooltip_text">Tily</span>
+                </div>
+                <div id="evie" class="cats has_tooltip">
+                    <img src="img/evie.jpg" alt="My cat Evie" />
+                    <span class="tooltip_text">Evie</span>
+                </div>
+            </div>
+        </section>
+        <section id="about_info">
+            <h3 id="about_title">About Me</h3>
+            <input type="radio" id="personal" name="about_change" checked>
+            <input type="radio" id="professional" name="about_change">
+            <div id="info_labels">
+                <label for="personal">Personal</label>
+                <label for="professional">Professional</label>
+            </div>
+            <article id="about_personal">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu feugiat pretium nibh ipsum. Fermentum leo vel orci porta non pulvinar neque. Magna etiam tempor orci eu lobortis. Velit scelerisque in dictum non consectetur a erat nam at. Laoreet id donec ultrices tincidunt arcu non. Enim praesent elementum facilisis leo vel. Feugiat sed lectus vestibulum mattis ullamcorper velit sed. Sagittis id consectetur purus ut. Nullam non nisi est sit amet facilisis magna etiam tempor. Sed enim ut sem viverra aliquet eget sit. Sit amet nisl purus in. Feugiat in ante metus dictum at. Nisl tincidunt eget nullam non nisi est.</p>
+            </article>
+            <article id="about_professional">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu feugiat pretium nibh ipsum. Fermentum leo vel orci porta non pulvinar neque. Magna etiam tempor orci eu lobortis. Velit scelerisque in dictum non consectetur a erat nam at. Laoreet id donec ultrices tincidunt arcu non. Enim praesent elementum facilisis leo vel. Feugiat sed lectus vestibulum mattis ullamcorper velit sed. Sagittis id consectetur purus ut. Nullam non nisi est sit amet facilisis magna etiam tempor. Sed enim ut sem viverra aliquet eget sit. Sit amet nisl purus in. Feugiat in ante metus dictum at. Nisl tincidunt eget nullam non nisi est.</p>
+                <a href="pdf/Andrew_Gregorovic.pdf" target="_blank">Resume Link</a>
+            </article>
+        </section>
+    </main>
+</body>
